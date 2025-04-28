@@ -1,0 +1,29 @@
+{
+  "name": "mental-health-app",
+  "version": "1.0.0",
+  "description": "Mental Health Assessment Application",
+  "main": "server/index.js",
+  "scripts": {
+    "run": "node server/index.js"
+  },
+  "keywords": [
+    "mental health",
+    "assessment",
+    "express",
+    "mongodb",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
